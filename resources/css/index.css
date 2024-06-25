@@ -22,7 +22,7 @@
 
 html {
   background-color: #FFFFFA;
-  background-image: url("resources/images/groomed-snow.jpg");
+  background-image: url("../images/groomed-snow.jpg");
 }
 .header {
     display: flex;
@@ -70,7 +70,7 @@ html {
     margin: 2rem auto;
     width: 55%; 
     height: 33.75rem;
-    background-image: url("resources/images/hero.jpg");
+    background-image: url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -224,7 +224,7 @@ align-items: center;
     max-width: 40rem;
     height: 22rem;
     margin: 2rem auto 2rem auto;
-    background-image: url("resources/images/membership-background.jpg");
+    background-image: url("../images/membership-background.jpg");
     background-position: center;
     background-size: auto;
     border: 3px solid #0F084B;
