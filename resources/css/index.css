@@ -1,28 +1,28 @@
 
-/* Header Section */
+/* header section */
 @font-face {
   font-family: "Kalam";
-  src: url('/resources/fonts/Kalam/Kalam-Regular.ttf');
+  src: url("resources/fonts/Kalam/Kalam-Regular.ttf");
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('/resources/fonts/Roboto/Roboto-Regular.ttf');
+  src: url("resources/fonts/Roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url('/resources/fonts/Poppins/Poppins-Black.ttf');
+  src: url("resources/fonts/Poppins/Poppins-Black.ttf");
 }
 
 @font-face {
   font-family: "Playfair";
-  src: url('/resources/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+  src: url("resources/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
 }
 
 html {
   background-color: #FFFFFA;
-  background-image: url('/resources/images/groomed-snow.jpg');
+  background-image: url("resources/images/groomed-snow.jpg");
 }
 .header {
     display: flex;
@@ -58,10 +58,10 @@ html {
     font-size: 2.25rem;
   }  
 
-  /* End of Header Section */
+  /* end of header section */
 
 
-  /* Hero Section w800 h600*/
+  /* hero section w800 h600*/
 
   .hero-section {
     display: flex;
@@ -70,7 +70,7 @@ html {
     margin: 2rem auto;
     width: 55%; 
     height: 33.75rem;
-    background-image: url('/resources/images/hero-2.jpg');
+    background-image: url("resources/images/hero-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -110,12 +110,12 @@ html {
 
 
 
-  /* End of Hero Section */
+  /* end of hero section */
 
 
-  /*Activities Section */
+  /*activities section */
 
-  .Activities-Text-Container {
+  .activities-text-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ html {
     letter-spacing: .125rem;
     line-height: 1.5;
     
-    text-align:justify;
+    text-align: justify;
     width: 75%;
     border: 3px solid #0F084B;
     margin: auto;
@@ -185,7 +185,7 @@ html {
     justify-content: center;
   }
   
-  .Activities-Section {
+  .activities-section {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -224,7 +224,7 @@ align-items: center;
     max-width: 40rem;
     height: 22rem;
     margin: 2rem auto 2rem auto;
-    background-image: url('/resources/images/membership-background.jpg');
+    background-image: url("resources/images/membership-background.jpg");
     background-position: center;
     background-size: auto;
     border: 3px solid #0F084B;
