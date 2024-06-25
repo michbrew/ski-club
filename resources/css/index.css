@@ -1,24 +1,6 @@
 
 /* header section */
-@font-face {
-  font-family: "Kalam";
-  src: url("resources/fonts/Kalam/Kalam-Regular.ttf");
-}
 
-@font-face {
-  font-family: "Roboto";
-  src: url("resources/fonts/Roboto/Roboto-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("resources/fonts/Poppins/Poppins-Black.ttf");
-}
-
-@font-face {
-  font-family: "Playfair";
-  src: url("resources/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
-}
 
 html {
   background-color: #FFFFFA;
@@ -31,6 +13,7 @@ html {
     background-color: #0F084B;
     color: #FFFFFA;
     font-family: "Poppins";
+    font-weight: 600;
     letter-spacing: .15rem;
     border-bottom: 2px solid #7F95D1;
     width: 98%;
@@ -120,7 +103,7 @@ html {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    font-family: "Playfair";
+    font-family: "Playfair Display", serif;
     font-weight: 600;
     letter-spacing: .125rem;
     line-height: 1.5;
@@ -243,7 +226,7 @@ align-items: center;
     background-color: black;
     color: white;
     opacity: .70;
-    font-family: "Playfair";
+    font-family: "Playfair Display", serif;
     font-weight: 500;
     border: 3px solid #0F084B;
     font-size: 1.5rem;
